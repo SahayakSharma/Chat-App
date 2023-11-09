@@ -18,5 +18,8 @@
     "lerna": "^6.6.2",
     "react-router": "^6.18.0",
     "react-router-dom": "^6.18.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
   }
 }
