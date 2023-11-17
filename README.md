@@ -3,9 +3,12 @@
 This is a web chat application made using `react js` for front-end and `node js` for processing data in the backend. The application requires basic login credentials including first name and second name and an avatar for your porfile.
  
 The web application uses `socket.io` library for secure connection between two or more clients. Using the library, message receiving and sending events are emitted and received onto different clients pages. 
-# Architecture Used
+## Project Architecture
 
-The code follows `monorepo` architecture using lerna 
+Our project follows a `monorepo` architecture to manage multiple related packages under a single repository. This allows us to organize and maintain various components, libraries, and modules efficiently. We use `Lerna`, a popular tool for managing JavaScript projects with multiple packages, to streamline our development workflow.
+
+Lerna enables us to version packages independently, manage dependencies, and execute commands across packages seamlessly. This architecture promotes code reusability, simplifies dependency management, and enhances overall project scalability. Each package within the monorepo represents a distinct part of the project, contributing to a modular and maintainable codebase.
+
 # How it Appears
 
 Initially a login page is displayed which appears as below : 
