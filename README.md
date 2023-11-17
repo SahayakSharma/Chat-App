@@ -9,6 +9,8 @@ Our project follows a `monorepo` architecture to manage multiple related package
 
 Lerna enables us to version packages independently, manage dependencies, and execute commands across packages seamlessly. This architecture promotes code reusability, simplifies dependency management, and enhances overall project scalability. Each package within the monorepo represents a distinct part of the project, contributing to a modular and maintainable codebase.
 
+You can find the client and server folder inside the folder named packages and hence modify it.
+
 # How it Appears
 
 Initially a login page is displayed which appears as below : 
